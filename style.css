@@ -1,0 +1,664 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .container{
+    max-width: 1180px;
+    margin-inline: auto;
+    
+    border: 0.5px solid black;
+} */
+
+.top-banner{
+    background-color:rgb(35, 115, 206);
+    width: 100vw;
+    height: 60px;
+    align-items: center;
+    
+    
+    
+}
+.banner-text p{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: white;
+    justify-content: center;
+    padding: 15px 30px;
+    text-align: center;
+    
+}
+
+.navbar{
+        display: flex;
+        justify-content: space-between;
+}
+
+.logo
+a{
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 700;
+    position: absolute;
+    top: 75px;
+    margin-left: 30px;
+    cursor: pointer;
+    filter: drop-shadow(5px 0px 5px rgb(53, 53, 67));
+}
+.logo:hover{
+   
+    text-shadow: 0px 3px 3px rgb(192, 82, 82);
+   transition: 0.2s ease-out;
+}
+.nav-lists ul{
+    list-style: none;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 700;
+    gap: 30px;
+    margin-top: 20px;
+    margin-right: 30px;
+    cursor: pointer;
+    filter: drop-shadow(2px 0px 2px rgb(53, 53, 67));
+}
+.buttons {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    
+    
+}
+.btns{
+    gap: 20px;
+    justify-content: space-between;
+}
+
+
+.nav-lists ul li:hover{
+    text-shadow: 1.5px 0px 5px brown;
+    transition: 0.2s ease-in-out;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+
+}
+.signin-btn{
+    text-decoration: none;
+    color: black!important;
+    border: 0.5px solid grey;
+    border-radius: 6px;
+    padding: 10px 10px;
+    background-color: transparent;
+    box-shadow: 2px 2px 2px grey;
+    gap: 20px;
+    
+}
+   
+.signin-btn:hover{
+    background-color:  rgb(245, 245, 245);
+}
+.signup-btn{
+    text-decoration: none;
+    background-color: rgb(44, 116, 205);
+    border: 0.5px solid grey;
+    border-radius: 6px;
+    font-weight: 500;
+    box-shadow: 2px 2px 2px grey;
+    padding: 10px 20px;
+    color: white;
+    
+}
+.signup-btn:hover{
+    background-color: rgb(24, 80, 149);
+}
+
+h1{
+    font-size: 3rem;
+    position: absolute;
+    top:200px;
+    left: 100px;
+}
+
+.left-div pre{
+    position: absolute;
+    top: 270px;
+    left:-70px ;
+    font-weight: 900;
+    font-family:cursive;
+    font-size: 1.3rem;
+    line-height: 35px;
+    
+}
+
+.right-div{
+    float: inline-end;
+    position: absolute;
+    right: 20px;
+    top: 130px;
+}
+.right-div img{
+    width: 700px;
+}
+.getstarted-button{
+    background-color: rgb(44, 116, 205);
+    border: 1px solid grey;
+    border-radius: 6px;
+     padding: 10px 20px;;
+     width: 130px;
+    position: absolute;
+    top: 380px;
+    left: 180px;
+    box-shadow: 2px 2px 2px grey;
+    font-weight: 700;
+}
+
+.getstarted-button:hover{
+    background-color: rgb(24, 80, 149) ;
+}
+.getstarted-button a{
+    text-decoration: none;
+    color: white;
+}
+
+.note{
+    position: absolute;
+    top: 590px;
+    left: 20%; 
+}
+
+.companiii-logo1 img{
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    top:650px ;
+    left:100px;
+  
+  
+}
+
+.companiii-logo2 img{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top:655px ;
+    left:450px;
+  
+  
+}
+
+.companiii-logo3 img{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top:650px ;
+    right: 450px;
+  
+  
+}
+
+.companiii-logo4 img{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top:650px ;
+    right: 100px;
+  
+  
+}
+
+.header{
+    margin-top: 700px;
+    text-align: center;
+   
+}
+.header h2{
+    font-size: 1.8rem;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+    border: 0.5px solid grey;
+    border-radius: 6px;
+    padding: 10px 10px;
+    background-color:transparent;
+    box-shadow: 2px 2px 2px grey;
+    
+}
+.header a:hover{
+    color: rgba(2, 102, 242, 0.888);
+}
+
+.feature-cards{
+    align-items: center;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    
+}
+.feature-cards img{
+    width: 50px;
+    height: 50px;
+}
+.feature-cards p{
+    margin-bottom: 20px;
+}
+.feature-cards a{
+    padding-top: 20px;
+    text-decoration: none;
+    color: black;
+    border: 0.5px solid grey;
+    border-radius: 6px;
+    padding: 10px 10px;
+    background-color:transparent;
+    box-shadow: 2px 2px 2px grey;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    row-gap: 40px;
+}
+.feature-cont{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    padding-inline: auto;
+    margin-left: 15px;
+    
+    
+}
+
+.feature-cards a{
+    text-decoration: none;
+    color: black;
+    border: 0.5px solid grey;
+    border-radius: 6px;
+    padding: 10px 10px;
+    background-color:transparent;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.feature-cards a:hover{
+    color: rgba(2, 102, 242, 0.888);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.spacer{
+    height: 100vh;
+}
+
+/* design section */
+
+.left-div1 img{
+    width: 650px;
+    height: 550px;
+
+}
+
+.design-container{
+    display: flex;
+}
+
+.right-div1{
+    margin-top: 200px;
+
+}
+.right-div1 h3{
+    font-size: large;
+    font-weight: 300;
+   
+}
+
+.right-div1 h2{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.right-div1 pre{
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: cursive;
+    position: absolute;
+    right: 30px;
+    
+}
+
+/* design section 2 */
+.design-container2{
+    display: flex;
+}
+
+.left-div2{
+    margin-top: 150px;
+}
+.left-div2 h3{
+    font-size: large;
+    font-weight: 300;
+    margin-left: 20px;
+   
+}
+.left-div2 h2{
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.left-div2 pre{
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: cursive;
+    position: absolute;
+   left: -30px;
+    
+}
+
+.right-div2 img{
+    width: 650px;
+    height: 550px;
+    position: absolute;
+    right: 30px;
+}
+
+
+/* design section 3 */
+.design-container3{
+    display: flex;
+}
+.left-div3 img{
+    width: 650px;
+    height: 550px;
+    margin-top: 300px;
+}
+
+.right-div3{
+    margin-top: 500px;
+}
+.right-div3 h3{
+    font-size: large;
+    font-weight: 300;
+    /* margin-left: 20px; */
+   
+}
+.right-div3 h2{
+    font-size: 2rem;
+    font-weight: 900;
+    
+}
+
+.right-div3 pre{
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: cursive;
+    /* position: absolute;
+   left: -30px; */
+    
+}
+
+/* section 10 */
+.possibilities{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.possibilities h2{
+    margin-bottom: 20px;
+}
+.possibilities a{
+    border: 0.5px solid black;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+     box-shadow: 2px 2px 2px grey;
+     color: black;
+}
+
+.possibilities a:hover{
+    color: rgb(8, 51, 205);
+}
+
+/* section-examples */
+.cards{
+    display: flex;
+    gap: 50px;
+    margin-left: 22px;
+    cursor: pointer;
+    
+}
+
+
+.card1{
+    width: 240px;
+    height: 260px;
+    border-radius: 10px;
+    background:linear-gradient(rgb(0,0,0,0.1) , rgb(0,0,0,0.8)) , url(https://img.freepik.com/premium-photo/travel-abstract-background-with-transport-nature-trip-backdrop-generative-ai_839051-1713.jpg);
+}
+.card1:hover{
+    box-shadow: 10px 10px 10px grey;
+    transition:0.2s ease-out;
+}
+
+
+.card1 h2{
+   position: relative;
+  top: 170px;
+  left: 10px;
+  color: white;
+}
+
+/* card2 */
+.card2{
+    width: 240px;
+    height: 260px;
+    border-radius: 10px;
+    background:linear-gradient(rgb(0,0,0,0.1) , rgb(0,0,0,0.8)) , url(https://img.freepik.com/free-psd/3d-cartoon-woman-standing-boat-reach-destination_1150-56176.jpg);
+}
+.card2:hover{
+    box-shadow: 10px 10px 10px grey;
+    transition:0.2s ease-out;
+}
+.card2 h2{
+    position: relative;
+   top: 170px;
+   left: 10px;
+   color: white;
+ }
+
+ /* card 3 */
+ .card3{
+    width: 240px;
+    height: 260px;
+    border-radius: 10px;
+    background:linear-gradient(rgb(0,0,0,0.1) , rgb(0,0,0,0.8)) , url(https://www.shutterstock.com/shutterstock/videos/1025009147/thumb/9.jpg?ip=x480);
+}
+.card3:hover{
+    box-shadow: 10px 10px 10px grey;
+    transition:0.2s ease-out;
+}
+.card3 h2{
+    position: relative;
+   top: 170px;
+   left: 10px;
+   color: white;
+ }
+
+ /* card4 */
+ .card4{
+    width: 240px;
+    height: 260px;
+    border-radius: 10px;
+    background:linear-gradient(rgb(0,0,0,0.1) , rgb(0,0,0,0.8)) , url(https://c8.alamy.com/comp/2D4YJR3/happy-girl-in-airport-vector-illustration-cartoon-young-traveller-woman-standing-in-airport-terminal-hall-interior-and-waving-tourist-dreaming-about-travelling-destination-vacation-background-2D4YJR3.jpg);
+}
+.card4:hover{
+    box-shadow: 10px 10px 10px grey;
+    transition:0.2s ease-out;
+}
+.card4 h2{
+    position: relative;
+   top: 170px;
+   left: 10px;
+   color: white;
+ }
+
+ /* card5 */
+ .card5{
+    width: 240px;
+    height: 260px;
+    border-radius: 10px;
+    background:linear-gradient(rgb(0,0,0,0.1) , rgb(0,0,0,0.8)) , url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYRxfvl30G6JypncSiur3G2jGiAz5lAMbq1w&usqp=CAU);
+}
+.card5:hover{
+    box-shadow: 10px 10px 10px grey;
+    transition:0.2s ease-out;
+}
+.card5 h2{
+    position: relative;
+   top: 170px;
+   left: 10px;
+   color: white;
+ }
+
+ /* section eleven */
+ .blue-div{
+    width: 100%;
+    height: 400px;
+    /* background-color: rgb(18, 30, 93); */
+    margin-top: 40px;
+    background: linear-gradient(to right, rgb(74, 59, 59),rgb(23, 23, 80));
+ }
+ .blue-div h2{
+    color: white;
+   position: relative;
+   left: 40%;
+   top: 28%;
+   font-size: 2rem;
+    
+}
+.blue-div h3{
+    color: white;
+   position: relative;
+   left: 37%;
+   top: 40%;
+   font-size: 1.2rem;
+}
+
+.get-start{
+    background-color: rgb(44, 116, 205);
+    border: 0.5px solid grey;
+    border-radius: 6px;
+    padding: 10px 20px;;
+    width: 130px;
+    
+    font-weight: 700;
+    position: relative;
+    left: 650px;
+    top: 200px;
+}
+.get-start:hover{
+box-shadow: 0px 3px 5px rgb(167, 144, 144);
+cursor: pointer;
+}
+.left-d a{
+    position: relative;
+    left: 40px;
+    top: 80px;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    filter: drop-shadow(0px 3px 3px rgb(58, 58, 73));
+}
+.left-d:hover{
+   
+   text-shadow: 0px 3px 3px rgb(192, 82, 82);
+   transition: 0.2s ease-out;
+}
+.three-d{
+    display: flex;
+    gap: 200px;
+    cursor: pointer;
+
+}
+
+.product{
+    position: relative;
+    top: 60px;
+    margin-left: 500px;
+    row-gap: 50px;
+    line-height: 3rem;   
+}
+
+
+.product h2{
+    font-size: 2.2rem;
+}
+
+.product-links li {
+    font-size: 1.2rem;
+   list-style: none;
+   line-height: 3em;
+}
+
+.product-links a{
+    text-decoration: none;
+    
+    
+}
+.methodology{
+    position: relative;
+    top: 70px;
+}
+.resources{
+    position: relative;
+    top: 70px;
+}
+
+.sub-footer{
+    position: relative;
+    margin-top: 100px;
+    font-size: 1.2rem;
+    height: 60px;
+    width: 100%;
+    background:linear-gradient(to bottom, rgb(47, 43, 43),rgb(51, 37, 100));
+    justify-content: space-between;
+   
+    
+}
+.sub-links{
+    display: flex;
+    gap: 30px;
+}
+.sub-links li{
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    left: 35%;
+    list-style: none;
+    
+    
+}
+.sub-links a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.sub-links a:hover{
+    color: rgb(211, 120, 8);
+}
